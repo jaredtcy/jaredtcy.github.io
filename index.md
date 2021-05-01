@@ -1,6 +1,6 @@
 ## Welcome to jaredtcode!
 
-Hi there! Im Jared. Welcome to my Github! Abit more on myself, I am someone who loves [travel](https://www.youtube.com/watch?v=7lvXbfNBIQg) and [cloud computing](https://www.youtube.com/watch?v=dH0yz-Osy54)!
+Hi there! Im Jared. Welcome to my Github! Abit more on myself, I am someone who loves [travelling](https://www.youtube.com/watch?v=7lvXbfNBIQg) and [cloud computing](https://www.youtube.com/watch?v=dH0yz-Osy54)!
 
 ### Projects
 
