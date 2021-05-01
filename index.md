@@ -1,27 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to jaredtcode!
 
-You can use the [editor on GitHub](https://github.com/jaredtcode/jaredtcode.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Hi there! Im Jared. Welcome to my Github! Abit more on myself, I am someone who loves travel [video](https://www.youtube.com/watch?v=7lvXbfNBIQg) and cloud computing [video](https://www.youtube.com/watch?v=dH0yz-Osy54)!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Projects
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Some projects which i made, that may interest you!
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- Project 1
+- Project 2
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
