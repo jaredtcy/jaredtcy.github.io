@@ -659,60 +659,86 @@
 
     <!-- s-stats
     ================================================== -->
-    <div class="row" id="row-businesscard">
-  <div class="five columns contact-left businesscard">
-      <div class="profile-pic-wrapper">
-          <a href="images/avatar.jpg" target="_BLANK">
-              <picture>
-                  <source srcset="images/avatar_thumb.webp" type="image/webp">
-                  <source srcset="images/avatar_thumb.jpg" type="image/jpeg"> 
-                  <img class="profile-pic" src="images/avatar_thumb.jpg" alt="">
-              </picture>
-          </a>
-      </div>
+  <section id="contact" class="s-contact target-section">
 
-      <p class="name">Dennis Potter</p>
+  <div class="overlay"></div>
 
-      <div id="contact-social-list">
-          <li><a href="https://www.instagram.com/dennispotter25" target="_blank"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/dennispotter25" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://stackoverflow.com/users/7949378" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-          <li><a href="https://git.dennispotter.eu/Dennis" target="_blank"><i class="fa fa-git"></i></a></li>
-          <li><a href="skype:dennispotter25?call"><i class="fa fa-skype"></i></a></li>
+  <div class="row narrow section-intro">
+      <div class="col-full">
+          <h3>Contact</h3>
+          <h1>Say Hello.</h1>
+
+          <p class="lead">Feel free to drop me a message! </p>
       </div>
   </div>
 
-  <div class="five columns contact-right businesscard">
-      <ul>
-          <li>
-              <i class="fa fa-phone contact-fa"></i> 
-              <p class="oneline"><a href="tel:+4917638663587">+49 176 386 635 87</a></p>
-          </li>
-          <li>
-              <i class="fa fa-matrix-org contact-fa"></i>
-              <p class="oneline"><a href="https://matrix.to/#/@dennis:dennispotter.eu" target="_BLANK">@dennis:dennispotter.eu</a></p>
-          </li>
-          <li>
-              <i class="fa fa-envelope contact-fa" id="contact-email"></i>
-              <p class="oneline"><a href="mailto:dennis@dennispotter.eu">dennis@dennispotter.eu</a></p>
-         </li>
-          <li>
-              <i class="fa fa-key-modern contact-fa"></i>
-              <p class="pgp"><a href="contact/public_pgp_dennis_potter.asc">3164 394F FBBF 6F3B AE6A<br />D43B 186A 8AD4 4094 2BAF</a></p>
-          </li>
-      </ul>
-  </div>
-</div>
 
-<div class="row">
-  <div class="twelve columns download">
-      <i>
-          <a href="contact/vcard_dennis_potter.vcf"> Download vCard</a> | 
-          <a href="contact/public_pgp_dennis_potter.asc">Download Public PGP Key</a>
-      </i>
+  <div class="row contact__main">
+      <div class="col-eight tab-full contact__form">
+          <form name="contactForm" id="contactForm" method="post" action="mailto:jtan93180@gmail.com">
+              <fieldset>
+
+              <div class="form-field">
+                  <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+              </div>
+              <div class="form-field">
+                  <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+              </div>
+              <div class="form-field">
+                  <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+              </div>
+              <div class="form-field">
+                  <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+              </div>
+              <div class="form-field">
+                  <button class="full-width btn--primary">Submit</button> 
+                  <div class="submit-loader">
+                      <div class="text-loader">Sending...</div>
+                      <div class="s-loader">
+                          <div class="bounce1"></div>
+                          <div class="bounce2"></div>
+                          <div class="bounce3"></div>
+                      </div>
+                  </div>
+              </div>
+
+              </fieldset>
+          </form>
+
+          <!-- contact-warning -->
+          <div class="message-warning">
+             Something went wrong. Please try again
+          </div>
+
+          <!-- contact-success -->
+          <div class="message-success">
+              Your message was sent, thank you!<br>
+          </div>
+
+      </div>
+      <!--
+      <div class="col-four tab-full contact__infos">
+          <h4 class="h06">Phone</h4>
+          <p>Phone: (+63) 555 1212<br>
+          Mobile: (+63) 555 0100<br>
+          Fax: (+63) 555 0101
+          </p>
+      -->
+
+          <h4 class="h06">Email</h4>
+          <p>tanchaoyang93@outlook.com<br>
+          </p>
+
+          <h4 class="h06">Connect Directly</h4>
+          <p>
+          https://www.linkedin.com/in/jaredtan1/<br>
+          </p>
+      </div>
+
   </div>
-</div>
-</section> <!-- Contact Section End-->
+
+</section> <!-- end s-contact -->
+
 
 
     <!-- footer
